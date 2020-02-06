@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IamSafe.Views.NeedHelp"
+             BackgroundImageSource="Rectangle4.png">
+    <ContentPage.Content>
+        <StackLayout Padding="20,150,20,0">
+            <Entry Placeholder="Name" x:Name="Name" Keyboard="Text"/>
+            <Entry Placeholder="Surname" x:Name="Surname" Keyboard="Text"/>
+            <Entry Placeholder="Name of Mother" x:Name="MotherName" Keyboard="Text"/>
+            <Entry Placeholder="Name of Father" x:Name="FatherName" Keyboard="Text"/>
+            <Button Text="Help!" Clicked="Button_Clicked_1" HeightRequest="100" WidthRequest="100" CornerRadius="200" BorderColor="#323031" BackgroundColor="#DB3A34" VerticalOptions  ="Center"
+             HorizontalOptions="Center" BorderWidth="5" TextColor="White" />
+            <Label Text="You can directly hit he 'Help' button to send help without entering the information." HorizontalOptions="Center" HorizontalTextAlignment="Center" TextDecorations="Underline"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IamSafe.Views.FindPerson"
+             BackgroundImageSource="Rectangle2.png">
+    <ContentPage.Content>
+        <StackLayout Padding="20,150,20,0">
+            <Entry Placeholder="Name" x:Name="Name"  Keyboard="Text"/>
+            <Entry Placeholder="Surname" x:Name="Surname" Keyboard="Text"/>
+            <Entry Placeholder="Name of Mother" x:Name="MotherName" Keyboard="Text"/>
+            <Entry Placeholder="Name of Father" x:Name="FatherName" Keyboard="Text"/>
+            <Button Text="Find Person" Clicked="IamSafeEvent" HorizontalOptions="Center" CornerRadius="15" BackgroundColor="#3b5998"/>
+            <Label Text="You can find people here if they checked-in." HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+            <Label Text="Users should enter all information in order to get true result." HorizontalOptions="Center" HorizontalTextAlignment="Center" TextDecorations="Underline"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
