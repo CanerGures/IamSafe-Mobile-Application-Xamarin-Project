@@ -10,7 +10,7 @@ namespace IamSafe
         {
             InitializeComponent();
 
-            MainPage = MainPage = new NavigationPage(new MainPage());
+            MainPage = MainPage = new NavigationPage(new MainPage()) { BarBackgroundColor = Color.Black};
         }
 
         protected override void OnStart()

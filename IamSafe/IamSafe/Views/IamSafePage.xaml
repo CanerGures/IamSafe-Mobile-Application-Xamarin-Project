@@ -17,7 +17,7 @@
                 <Label HorizontalTextAlignment="Center" x:Name="lblLatitude"></Label>
                 <Label HorizontalTextAlignment="Center" x:Name="lblLongitude"></Label>
                 <Label Text="You can let people know that you are safe in case of any disaster. " HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
-                <Label Text="Users should enter all information in order to get true result." HorizontalOptions="Center" HorizontalTextAlignment="Center" TextDecorations="Underline"/>
+                <Label Text="Users should enter all information in order to get true result." HorizontalOptions="Center" HorizontalTextAlignment="Center" TextDecorations="Underline" FontSize="Small"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

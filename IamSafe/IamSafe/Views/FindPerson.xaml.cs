@@ -31,19 +31,19 @@ namespace IamSafe.Views
         public async void FindCasualty(Person person)
         {
             
-            GetPersonModel jsonrequest = new GetPersonModel();
+           /* GetPersonModel jsonrequest = new GetPersonModel();
             jsonrequest.Name = person.Name;
             jsonrequest.Surname = person.Surname;
             jsonrequest.MotherName = person.MotherName;
-            jsonrequest.FatherName = person.FatherName;
+            jsonrequest.FatherName = person.FatherName;*/
             
 
 
            var client = new RestClient("http://192.168.1.57/IamSafeApi/api/getPerson");
             client.Timeout = -1;
-            var request = new RestRequest(Method.GET);
+            var request = new RestRequest(Method.POST);
             request.AddHeader("Content-Type", "application/json");
-            request.AddParameter("application/json", JsonConvert.SerializeObject(jsonrequest), ParameterType.RequestBody);
+            request.AddParameter("application/json", "{\"Name\":\"levent\",\"Surname\":\"hasan\",\"MotherName\":\"ali\",\"FatherName\":\"hüseyin\"}"/*JsonConvert.SerializeObject(jsonrequest)*/, ParameterType.RequestBody);
             IRestResponse response = client.Execute(request);
             if (response.IsSuccessful)
             {

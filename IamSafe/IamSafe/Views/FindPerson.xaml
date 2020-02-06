@@ -14,7 +14,7 @@
             <Entry Placeholder="Name of Father" x:Name="FatherName" Keyboard="Text"/>
             <Button Text="Find Person" Clicked="IamSafeEvent" HorizontalOptions="Center" CornerRadius="15" BackgroundColor="#3b5998"/>
             <Label Text="You can find people here if they checked-in." HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
-            <Label Text="Users should enter all information in order to get true result." HorizontalOptions="Center" HorizontalTextAlignment="Center" TextDecorations="Underline"/>
+            <Label Text="Users should enter all information in order to get true result." HorizontalOptions="Center" HorizontalTextAlignment="Center" TextDecorations="Underline" FontSize="Small"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
