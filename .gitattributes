@@ -1,2 +1,2 @@
 *.* linguist-language=C#
-*.ASM linguist-vendored=false
+*.ASM linguist-vendored=true
