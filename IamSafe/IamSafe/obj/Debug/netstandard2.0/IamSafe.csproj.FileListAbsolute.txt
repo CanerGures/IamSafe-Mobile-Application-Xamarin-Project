@@ -13,9 +13,8 @@ C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\obj\Debug\netstandard2.0\IamS
 C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\obj\Debug\netstandard2.0\ref\IamSafe.dll
 C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\obj\Debug\netstandard2.0\IamSafe.pdb
 C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\obj\Debug\netstandard2.0\Views\IamSafePage.xaml.g.cs
-C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\bin\Debug\netstandard2.0\Mono.Android.dll
 C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\bin\Debug\netstandard2.0\Mono.Android.pdb
 C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\bin\Debug\netstandard2.0\Mono.Android.xml
 C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\obj\Debug\netstandard2.0\IamSafe.csproj.CopyComplete
-C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\obj\Debug\netstandard2.0\IamSafe.csprojAssemblyReference.cache
+C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\obj\Debug\netstandard2.0\XamlC.stamp

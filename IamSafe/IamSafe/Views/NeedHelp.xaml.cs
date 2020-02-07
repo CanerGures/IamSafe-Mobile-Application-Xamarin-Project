@@ -1,4 +1,5 @@
 ﻿using IamSafe.Models;
+using Plugin.Geolocator;
 using RestSharp;
 using System;
 using System.Collections.Generic;
@@ -24,9 +25,10 @@ namespace IamSafe.Views
         {
             try
             {
-                var location = await Geolocation.GetLastKnownLocationAsync();
-
-                if (location != null)
+                var locator = CrossGeolocator.Current;
+                locator.DesiredAccuracy = 50;
+                var position = await locator.GetPositionAsync();
+                if (locator != null)
                 {
                     
                     Person person = new Person();
@@ -34,9 +36,10 @@ namespace IamSafe.Views
                     person.Surname = Surname.Text;
                     person.MotherName = MotherName.Text;
                     person.FatherName = FatherName.Text;
-                    person.Longitude = location.Longitude;
-                    person.Latitude = location.Latitude;
+                    person.Longitude = position.Longitude;
+                    person.Latitude = position.Latitude;
                     NeedHelpMethod(person);
+                    
                 }
             }
             catch (FeatureNotSupportedException fnsEx)

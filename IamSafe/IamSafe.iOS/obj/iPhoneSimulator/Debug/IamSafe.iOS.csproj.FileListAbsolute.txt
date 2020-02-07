@@ -61,3 +61,5 @@ C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe.iOS\bin\iPhoneSimulator\Debug
 C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe.iOS\bin\iPhoneSimulator\Debug\Mono.Android.dll
 C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe.iOS\bin\iPhoneSimulator\Debug\Mono.Android.pdb
 C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe.iOS\bin\iPhoneSimulator\Debug\Mono.Android.xml
+C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.dll
+C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe.iOS\bin\iPhoneSimulator\Debug\Plugin.Geolocator.dll

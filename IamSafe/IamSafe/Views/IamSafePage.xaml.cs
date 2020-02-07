@@ -1,4 +1,5 @@
 ﻿using IamSafe.Models;
+using Plugin.Geolocator;
 using RestSharp;
 using System;
 using System.Collections.Generic;
@@ -24,19 +25,21 @@ namespace IamSafe.Views
             
             try
             {
-                var location = await Geolocation.GetLastKnownLocationAsync();
+                var locator = CrossGeolocator.Current;
+                locator.DesiredAccuracy = 50;
+                var position = await locator.GetPositionAsync();
 
-                if (location != null)
+                if (position != null)
                 {
-                    lblLatitude.Text = "Latitude: " + location.Latitude.ToString();
-                    lblLongitude.Text = "Longitude:" + location.Longitude.ToString();
+                    lblLatitude.Text = "Latitude: " + position.Latitude.ToString();
+                    lblLongitude.Text = "Longitude:" + position.Longitude.ToString();
                     Person person = new Person();
                     person.Name = Name.Text;
                     person.Surname = Surname.Text;
                     person.MotherName = MotherName.Text;
                     person.FatherName = FatherName.Text;
-                    person.Longitude = location.Longitude;
-                    person.Latitude = location.Latitude;
+                    person.Longitude = position.Longitude;
+                    person.Latitude = position.Latitude;
                     Notify(person);
                 }
             }

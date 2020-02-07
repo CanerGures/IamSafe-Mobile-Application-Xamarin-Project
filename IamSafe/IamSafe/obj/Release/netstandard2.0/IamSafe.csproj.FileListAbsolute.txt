@@ -14,3 +14,7 @@ C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\obj\Release\netstandard2.0\Xa
 C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\obj\Release\netstandard2.0\IamSafe.dll
 C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\obj\Release\netstandard2.0\ref\IamSafe.dll
 C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\obj\Release\netstandard2.0\IamSafe.pdb
+C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\bin\Release\netstandard2.0\Mono.Android.dll
+C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\bin\Release\netstandard2.0\Mono.Android.pdb
+C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\bin\Release\netstandard2.0\Mono.Android.xml
+C:\Users\User\source\repos\IamSafe\IamSafe\IamSafe\obj\Release\netstandard2.0\IamSafe.csproj.CopyComplete
